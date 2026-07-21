@@ -1,0 +1,9 @@
+nombre,pixel_x,pixel_y,longitud,latitud
+esquina_NO,0,0,-99.178,19.42
+esquina_NE,999,0,-99.165,19.42
+esquina_SO,0,799,-99.178,19.408
+esquina_SE,999,799,-99.165,19.408
+amsterdam_sonora,220,400,-99.175137,19.413992
+mazatlan_michoacan,500,220,-99.171493,19.416696
+medellin_campeche,780,580,-99.16785,19.411289
+parque_centro,500,400,-99.171493,19.413992

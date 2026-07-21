@@ -34,6 +34,7 @@ The repository organizes its content in a modular and independent manner for eac
 - 02_Dia2_Lineas: contains the infrastructure of the line challenge for day 2, split in the same way into data and code.
 - 03_Dia_3_Poligonos: contains the analysis notebook and data for the spatial delineation of the polygon challenge on day 3.
 - 04_Dia4_BadMap: GPS coordinate audit and repair (swapped lat/lon, broken signs, outliers); includes a synthetic dirty dataset, notebook, and before/after maps.
+- 05_Dia5_AnalogMap: georeferencing a field sketch (Condesa, CDMX) with GCPs; turns a scanned image into an actionable GIS layer.
 - indice.md: a summary table with the 30-day planning, detailing specific challenges, themes, and data sources.
 
 ## Specific use cases
@@ -44,6 +45,7 @@ This repository covers practical problems and solutions applied to geography and
 - Connectivity analysis of road networks: studying the layout of streets and bike lanes to evaluate urban accessibility and optimize logistics and distribution processes.
 - Statistical normalization in choropleth maps: representing socioeconomic variables at the urban AGEB (Basic Geostatistical Area) level correctly, preventing the visual biases produced when mapping absolute values instead of ratios.
 - GPS data quality: detecting and repairing swapped coordinates, wrong signs, nulls, and geographic outliers before feeding routing systems or dashboards.
+- Sketch georeferencing: converting field-visit croquis into GIS layers using Ground Control Points (GCPs).
 
 ## When to use this repository
 
