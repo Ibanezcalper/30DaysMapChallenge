@@ -35,6 +35,7 @@ The repository organizes its content in a modular and independent manner for eac
 - 03_Dia_3_Poligonos: contains the analysis notebook and data for the spatial delineation of the polygon challenge on day 3.
 - 04_Dia4_BadMap: GPS coordinate audit and repair (swapped lat/lon, broken signs, outliers); includes a synthetic dirty dataset, notebook, and before/after maps.
 - 05_Dia5_AnalogMap: georeferencing a field sketch (Condesa, CDMX) with GCPs; turns a scanned image into an actionable GIS layer.
+- 06_Dia6_Raster: Valley of Mexico DEM, slope calculation, and logistics suitability index via map algebra.
 - indice.md: a summary table with the 30-day planning, detailing specific challenges, themes, and data sources.
 
 ## Specific use cases
@@ -46,6 +47,7 @@ This repository covers practical problems and solutions applied to geography and
 - Statistical normalization in choropleth maps: representing socioeconomic variables at the urban AGEB (Basic Geostatistical Area) level correctly, preventing the visual biases produced when mapping absolute values instead of ratios.
 - GPS data quality: detecting and repairing swapped coordinates, wrong signs, nulls, and geographic outliers before feeding routing systems or dashboards.
 - Sketch georeferencing: converting field-visit croquis into GIS layers using Ground Control Points (GCPs).
+- Raster map algebra: deriving slope from a DEM and combining layers into a site-suitability index.
 
 ## When to use this repository
 

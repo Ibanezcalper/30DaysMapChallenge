@@ -35,6 +35,7 @@ El repositorio organiza el contenido de forma modular e independiente para cada 
 - 03_Dia_3_Poligonos: contiene el cuaderno de análisis y los datos para la delimitación espacial del reto de polígonos del día 3.
 - 04_Dia4_BadMap: auditoría y reparación de coordenadas GPS corruptas (coordenadas invertidas, signos rotos, outliers); incluye dataset sintético, notebook y mapas antes/después.
 - 05_Dia5_AnalogMap: georreferenciación de un croquis de campo (Condesa, CDMX) con GCPs; convierte una imagen escaneada en capa GIS accionable.
+- 06_Dia6_Raster: DEM del Valle de México, cálculo de pendiente e índice de aptitud logística mediante álgebra de mapas.
 - indice.md: tabla resumen con la planificación de los 30 días, detallando los retos específicos, temas y fuentes de información.
 
 ## Casos de uso específicos
@@ -46,6 +47,7 @@ Este repositorio cubre problemas prácticos y soluciones aplicadas a la geograf�
 - Normalización estadística en mapas coropléticos: representación visual correcta de variables socioeconómicas a nivel de AGEBs (Áreas Geoestadísticas Básicas) urbanas evitando los sesgos que produce mapear valores absolutos.
 - Calidad de datos GPS: detección y reparación de coordenadas invertidas, signos incorrectos, nulos y outliers geográficos antes de alimentar ruteo o dashboards.
 - Georreferenciación de croquis: convertir sketches de visita comercial en capas GIS mediante Ground Control Points (GCPs).
+- Álgebra de mapas raster: derivar pendiente desde un DEM y combinar capas para un índice de aptitud de ubicación.
 
 ## Cuándo utilizar este repositorio
 
