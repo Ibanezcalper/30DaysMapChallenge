@@ -36,6 +36,7 @@ El repositorio organiza el contenido de forma modular e independiente para cada 
 - 04_Dia4_BadMap: auditoría y reparación de coordenadas GPS corruptas (coordenadas invertidas, signos rotos, outliers); incluye dataset sintético, notebook y mapas antes/después.
 - 05_Dia5_AnalogMap: georreferenciación de un croquis de campo (Condesa, CDMX) con GCPs; convierte una imagen escaneada en capa GIS accionable.
 - 06_Dia6_Raster: DEM del Valle de México, cálculo de pendiente e índice de aptitud logística mediante álgebra de mapas.
+- 07_Dia7_Vintage: georreferenciación del grabado de Tenochtitlan (1524) y superposición sobre CDMX moderna.
 - indice.md: tabla resumen con la planificación de los 30 días, detallando los retos específicos, temas y fuentes de información.
 
 ## Casos de uso específicos
@@ -48,6 +49,7 @@ Este repositorio cubre problemas prácticos y soluciones aplicadas a la geograf�
 - Calidad de datos GPS: detección y reparación de coordenadas invertidas, signos incorrectos, nulos y outliers geográficos antes de alimentar ruteo o dashboards.
 - Georreferenciación de croquis: convertir sketches de visita comercial en capas GIS mediante Ground Control Points (GCPs).
 - Álgebra de mapas raster: derivar pendiente desde un DEM y combinar capas para un índice de aptitud de ubicación.
+- Cartografía histórica: georreferenciar mapas antiguos (GCPs) para comparar la huella urbana del pasado con el presente.
 
 ## Cuándo utilizar este repositorio
 
