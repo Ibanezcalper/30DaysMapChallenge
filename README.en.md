@@ -37,6 +37,7 @@ The repository organizes its content in a modular and independent manner for eac
 - 05_Dia5_AnalogMap: georeferencing a field sketch (Condesa, CDMX) with GCPs; turns a scanned image into an actionable GIS layer.
 - 06_Dia6_Raster: Valley of Mexico DEM, slope calculation, and logistics suitability index via map algebra.
 - 07_Dia7_Vintage: georeferencing the 1524 Tenochtitlan woodcut and overlaying it on modern Mexico City.
+- 08_Dia8_HD: high-density point cloud (~200k+ points) from CDMX Metro ridership; HD scatter, hexbin, and station symbology.
 - indice.md: a summary table with the 30-day planning, detailing specific challenges, themes, and data sources.
 
 ## Specific use cases
@@ -50,6 +51,7 @@ This repository covers practical problems and solutions applied to geography and
 - Sketch georeferencing: converting field-visit croquis into GIS layers using Ground Control Points (GCPs).
 - Raster map algebra: deriving slope from a DEM and combining layers into a site-suitability index.
 - Historical cartography: georeferencing antique maps (GCPs) to compare past urban footprints with the present.
+- HD transit visualization: turning massive ridership into point clouds and hexbins to diagnose demand pressure.
 
 ## When to use this repository
 
