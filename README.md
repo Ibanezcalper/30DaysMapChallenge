@@ -33,6 +33,7 @@ El repositorio organiza el contenido de forma modular e independiente para cada 
   - 01_codigo: contiene el cuaderno Jupyter (Puntos.ipynb), su exportación en PDF (Puntos.pdf) y los archivos de imagen resultantes con los mapas terminados.
 - 02_Dia2_Lineas: contiene la infraestructura del reto de líneas del día 2, dividida de la misma manera en datos y código.
 - 03_Dia_3_Poligonos: contiene el cuaderno de análisis y los datos para la delimitación espacial del reto de polígonos del día 3.
+- 04_Dia4_BadMap: auditoría y reparación de coordenadas GPS corruptas (coordenadas invertidas, signos rotos, outliers); incluye dataset sintético, notebook y mapas antes/después.
 - indice.md: tabla resumen con la planificación de los 30 días, detallando los retos específicos, temas y fuentes de información.
 
 ## Casos de uso específicos
@@ -42,6 +43,7 @@ Este repositorio cubre problemas prácticos y soluciones aplicadas a la geograf�
 - Análisis de saturación de mercado: cálculo de densidad de puntos de interés comercial en zonas urbanas para identificar oportunidades de negocio o áreas de sobreoferta.
 - Análisis de conectividad de redes viales: estudio del trazado de calles y ciclovías para evaluar la accesibilidad urbana y optimizar procesos de logística y distribución.
 - Normalización estadística en mapas coropléticos: representación visual correcta de variables socioeconómicas a nivel de AGEBs (Áreas Geoestadísticas Básicas) urbanas evitando los sesgos que produce mapear valores absolutos.
+- Calidad de datos GPS: detección y reparación de coordenadas invertidas, signos incorrectos, nulos y outliers geográficos antes de alimentar ruteo o dashboards.
 
 ## Cuándo utilizar este repositorio
 
