@@ -39,6 +39,7 @@ The repository organizes its content in a modular and independent manner for eac
 - 07_Dia7_Vintage: georeferencing the 1524 Tenochtitlan woodcut and overlaying it on modern Mexico City.
 - 08_Dia8_HD: high-density point cloud (~200k+ points) from CDMX Metro ridership; HD scatter, hexbin, and station symbology.
 - 09_Dia9_AI: land-use classification with Random Forest on Sentinel-2 (vegetation, urban, bare soil, water).
+- 10_Dia10_PenPaper: pen-and-paper storyboard of the business narrative (6 frames) before coding the map.
 - indice.md: a summary table with the 30-day planning, detailing specific challenges, themes, and data sources.
 
 ## Specific use cases
@@ -54,6 +55,7 @@ This repository covers practical problems and solutions applied to geography and
 - Historical cartography: georeferencing antique maps (GCPs) to compare past urban footprints with the present.
 - HD transit visualization: turning massive ridership into point clouds and hexbins to diagnose demand pressure.
 - Satellite ML classification: Random Forest on Sentinel-2 to map land use and quantify urban vs vegetation.
+- Cartographic storyboarding: sketch the business narrative before writing code.
 
 ## When to use this repository
 
