@@ -41,6 +41,7 @@ The repository organizes its content in a modular and independent manner for eac
 - 09_Dia9_AI: land-use classification with Random Forest on Sentinel-2 (vegetation, urban, bare soil, water).
 - 10_Dia10_PenPaper: pen-and-paper storyboard of the business narrative (6 frames) before coding the map.
 - 11_Dia11_Artico: global routes (Suez vs NSR vs Antarctica) in polar projections vs Mercator with Natural Earth.
+- 12_Dia12_Espacio: Mars MOLA DEM with IAU2000 planetocentric CRS and landing/site suitability mask.
 - indice.md: a summary table with the 30-day planning, detailing specific challenges, themes, and data sources.
 
 ## Specific use cases
@@ -58,6 +59,7 @@ This repository covers practical problems and solutions applied to geography and
 - Satellite ML classification: Random Forest on Sentinel-2 to map land use and quantify urban vs vegetation.
 - Cartographic storyboarding: sketch the business narrative before writing code.
 - Polar projections: compare global routes in Mercator vs Polar Stereo so Arctic/Antarctic distances are not visually biased.
+- Planetary mapping: use non-Earth CRS (Mars IAU2000/MOLA) so distances are not measured with the wrong planetary radius.
 
 ## When to use this repository
 

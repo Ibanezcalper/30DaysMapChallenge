@@ -41,6 +41,7 @@ El repositorio organiza el contenido de forma modular e independiente para cada 
 - 09_Dia9_AI: clasificación de uso de suelo con Random Forest sobre Sentinel-2 (vegetación, urbano, suelo, agua).
 - 10_Dia10_PenPaper: storyboard pen & paper de la narrativa de negocio (6 viñetas) antes de codear el mapa.
 - 11_Dia11_Artico: rutas globales (Suez vs NSR vs Antártida) en proyecciones polares vs Mercator con Natural Earth.
+- 12_Dia12_Espacio: DEM MOLA de Marte con CRS planetocéntrico IAU2000 y máscara de aptitud para emplazamiento.
 - indice.md: tabla resumen con la planificación de los 30 días, detallando los retos específicos, temas y fuentes de información.
 
 ## Casos de uso específicos
@@ -58,6 +59,7 @@ Este repositorio cubre problemas prácticos y soluciones aplicadas a la geograf�
 - Clasificación satelital con ML: Random Forest sobre Sentinel-2 para mapear uso de suelo y cuantificar urbano vs vegetación.
 - Storyboarding cartográfico: diseñar la narrativa de negocio en bocetos antes de escribir código.
 - Proyecciones polares: comparar rutas globales en Mercator vs Polar Stereo para no sesgar distancias árticas/antárticas.
+- Cartografía planetaria: usar CRS no terrestres (Marte IAU2000/MOLA) para no medir km con el radio equivocado.
 
 ## Cuándo utilizar este repositorio
 

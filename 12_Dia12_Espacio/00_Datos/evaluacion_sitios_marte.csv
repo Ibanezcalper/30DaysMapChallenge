@@ -1,0 +1,8 @@
+nombre,lon_este,lat,tipo,elev_m,slope_deg,apto
+Olympus Mons,226.2,18.65,volcan,20009.0,2.069699287414551,False
+Valles Marineris,290.0,-14.0,canyon,3361.0,1.1497759819030762,False
+Gale Crater (Curiosity),137.4,-5.4,rover,-2927.0,2.3798882961273193,False
+Jezero Crater (Perseverance),77.45,18.44,rover,-2478.0,0.9449136257171631,False
+Hellás Basin,70.0,-42.4,basin,-5737.0,1.2548489570617676,False
+North Pole Cap,0.0,85.0,polo,-4721.0,1.5500000715255737,False
+South Pole Cap,0.0,-85.0,polo,3775.0,0.6802181601524353,False
