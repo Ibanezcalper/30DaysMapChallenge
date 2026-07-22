@@ -38,6 +38,7 @@ El repositorio organiza el contenido de forma modular e independiente para cada 
 - 06_Dia6_Raster: DEM del Valle de México, cálculo de pendiente e índice de aptitud logística mediante álgebra de mapas.
 - 07_Dia7_Vintage: georreferenciación del grabado de Tenochtitlan (1524) y superposición sobre CDMX moderna.
 - 08_Dia8_HD: nube de alta densidad (~200k+ puntos) a partir de afluencia del Metro CDMX; scatter HD, hexbin y simbología de estaciones.
+- 09_Dia9_AI: clasificación de uso de suelo con Random Forest sobre Sentinel-2 (vegetación, urbano, suelo, agua).
 - indice.md: tabla resumen con la planificación de los 30 días, detallando los retos específicos, temas y fuentes de información.
 
 ## Casos de uso específicos
@@ -52,6 +53,7 @@ Este repositorio cubre problemas prácticos y soluciones aplicadas a la geograf�
 - Álgebra de mapas raster: derivar pendiente desde un DEM y combinar capas para un índice de aptitud de ubicación.
 - Cartografía histórica: georreferenciar mapas antiguos (GCPs) para comparar la huella urbana del pasado con el presente.
 - Visualización HD de transporte: convertir afluencia masiva en nubes de puntos y hexbins para diagnosticar presión de demanda.
+- Clasificación satelital con ML: Random Forest sobre Sentinel-2 para mapear uso de suelo y cuantificar urbano vs vegetación.
 
 ## Cuándo utilizar este repositorio
 

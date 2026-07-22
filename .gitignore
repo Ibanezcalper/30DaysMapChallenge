@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 08_Dia8_HD/00_Datos/afluencia_metro_simple.csv
 08_Dia8_HD/00_Datos/stcmetro_shp.zip
+09_Dia9_AI/00_Datos/sentinel2_cdmx_subset.tif

@@ -1,0 +1,85 @@
+{
+  "n_train": 9442,
+  "n_test": 3148,
+  "accuracy": 0.9993646759847522,
+  "report": {
+    "Vegetacion": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1000.0
+    },
+    "Urbano": {
+      "precision": 0.999,
+      "recall": 0.999,
+      "f1-score": 0.999,
+      "support": 1000.0
+    },
+    "Suelo_desnudo": {
+      "precision": 0.999,
+      "recall": 0.999,
+      "f1-score": 0.999,
+      "support": 1000.0
+    },
+    "Agua": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 148.0
+    },
+    "accuracy": 0.9993646759847522,
+    "macro avg": {
+      "precision": 0.9995,
+      "recall": 0.9995,
+      "f1-score": 0.9995,
+      "support": 3148.0
+    },
+    "weighted avg": {
+      "precision": 0.9993646759847522,
+      "recall": 0.9993646759847522,
+      "f1-score": 0.9993646759847522,
+      "support": 3148.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1000,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      999,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      999,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      148
+    ]
+  ],
+  "feature_importances": {
+    "blue": 0.04886957240156144,
+    "green": 0.06587836809588526,
+    "red": 0.09234463020757352,
+    "nir": 0.12524488021699443,
+    "ndvi": 0.276758070558871,
+    "ndwi": 0.2365352113677825,
+    "brightness": 0.15436926715133173
+  },
+  "classes": {
+    "1": "Vegetacion",
+    "2": "Urbano",
+    "3": "Suelo_desnudo",
+    "4": "Agua"
+  }
+}
